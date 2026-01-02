@@ -11,4 +11,55 @@ h1 {
 
 h2 {
     margin-top: 24px;
+}body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 16px;
+  color: #222;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #0b3c5d;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 24px;
+  color: #1d3557;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
