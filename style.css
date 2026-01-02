@@ -1,5 +1,51 @@
 body {
   margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 6px;
+}
+
+.btn.primary {
+  background: #fff;
+  color: #ff4b2b;
+}
+
+.btn.secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}body 
+  margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background: #f2f5f9;
